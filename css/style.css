@@ -1,0 +1,175 @@
+@font-face
+	{
+	font-family: 'myriad_pro_bold';
+	src: url('../font/3_MyriadBold_Myriad Pro.ttf')  format('truetype');
+	}
+@font-face
+{
+	font-family: 'myriad_pro';
+	src: url('../font/2_FINA6219_w01_media06_fla.MyriadRegular_9_Myriad Pro.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'arial';
+  src: url('../font/arial.ttf') format('truetype'),url('../font/Arial V15.woff') format('woff');
+}
+body{
+	font-size: 16px;
+  font-family: 'myriad_pro';
+  position: relative;
+	user-select: none;
+}
+#wrapper {
+	width: 800px;
+  height: 490px;
+  background-size: cover;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+  background: #2c3b5a;
+  word-spacing: -3px;
+}
+#innerContainer
+{
+  width: 780px;
+  height:470px;
+  margin: 10px;
+  border-radius: 15px;
+  background: linear-gradient(#E2E3F0,white,white,#E2E3F0,#E2E3F0);
+  position: relative;
+  overflow: hidden;
+}
+#innerContainer-left{
+  width: 463px;
+  height: 365px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+#innerContainer-right{
+	width: 317px;
+  height:365px;
+  position: relative;
+  overflow: hidden;
+}
+#innerContainer-bottom
+{
+  margin-top:0px;
+	width: 780px;
+  height: 107px;
+  position: relative;
+  overflow: hidden;
+}
+#input-box {
+  width: 450px;
+  height:357px;
+	margin-left: 6px;
+  margin-top: 6px;
+	position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+
+  /*background-image: url(../images/first.jpg);*/
+}
+#right_text{
+	width: 265px;
+  height: 215px;
+  background: linear-gradient(#E2E3F0,white,white,#E2E3F0,#E2E3F0);
+  border-radius: 15px;
+  margin-left: 22px;
+  margin-top: 75px;
+	border: 2px solid #5B6EB3;
+	position: relative;
+	overflow: hidden;
+}
+.next-button{
+  width:121px;
+  height:34px;
+  background-image: url(../images/next.png);
+  float:right;
+  margin-right: 20px;
+	margin-top:20px;
+	opacity:0.1;
+	}
+.next-button:hover{
+	cursor: pointer;
+  background-image: url(../images/next-red.png);
+}
+.restart-button{
+  width:121px;
+  height:34px;
+  background-image: url(../images/restart.png);
+  float:left;
+  margin-left: 200px;
+	margin-top:20px
+}
+.restart-button:hover{
+	cursor: pointer;
+  background-image: url(../images/restart-red.png);
+}
+.previous-button{
+  width:121px;
+  height:34px;
+  background-image: url(../images/previous.png);
+  float:left;
+	margin-left: 15px;
+	margin-top: 20px
+}
+.previous-button:hover{
+  cursor: pointer;
+	background-image: url(../images/previous-red.png);
+}
+.next-button-hover{
+	background-image: url('../images/next-red.png');
+}
+.restart-button-hover{
+	background-image: url('../images/restart-red.png');
+}
+.previous-button-hover{
+	background-image: url('../images/previous-red.png');
+}
+#last-text{
+	margin-top:75px;
+  margin-left:40px;
+  position: relative;
+  overflow: hidden;
+}
+.vl {
+  border-left: 2px solid #003163;
+	height: 311px;
+  position: absolute;
+  left: 50%;
+  margin-top: 41px;
+}
+hr{
+	width: 350px;
+  position: absolute;
+  border: 1px solid black;
+  top: 50%;
+  margin-left: 48px;
+}
+.content{
+	left:500px;
+	position:relative;
+}
+#starting-content{
+	margin-top: 12px;
+    margin-left: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+		width:245px;
+}
+.next-button:focus,.previous-button:focus,.restart-button:focus,.red-color:focus{
+  outline:1px dotted #333!important;
+}
+.pointer-events-none {
+	pointer-events: none;
+}
+.hide{
+	display:none;
+}
+.red-color {
+	color: #990000!important;
+}
+#starting-content:focus,#last-text:focus,#input-box:focus {
+    outline: 1px dotted #333!important;
+}
